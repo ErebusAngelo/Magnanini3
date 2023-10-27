@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnanini y Asoc</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="contacto.css">
+</head>
+<body>
+   
+        
+    <header> 
+        <img class="logo" src="logos/logoMagnanini.svg" alt="Logo de la página">
+        <button  class="openmenu" id="abrir" type="button"> <i class="bi bi-list"></i>
+        </button>
+         <nav class="navbar" id="nav" >
+        <button  class="closemenu" id="cerrar" type="button"><i class="bi bi-x-lg"></i></button>
+            <ul class="menu">
+
+              <li><a href="/index.html">  Consultora</a></li>
+              <li><a href="/Servicios.html">Servicios</a></li>
+              <li><a href="/nosotros.html">Nosotros</a></li>
+              <li><a id="contacto"href="/contacto.html">Contacto</a></li>
+
+            </ul>
+         </nav>
+    </header>
+         <div class="background-image">
+        <!-- Aquí puedes incluir la imagen de fondo -->
+    </div>
+    <div class="separator">
+        <div class="title">
+            <div class="title-image"></div>
+            <h1>Contacto</h1>
+        </div>
+        
+    </div>
+   
+    <section class="cards">
+        <article class="card2">
+            <div class="card3">
+        <img class="separador-1" src="/Separador/RecContacto.png" alt="">
+        <div class="formcontainer">
+            <form>
+                
+                    <div class="input-field">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                
+    
+                <div class="input-field">
+                    <label for="compania">Compañía</label>
+                    <input type="text" id="compania" name="compania" required>
+                </div>
+    
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="additional-name" required>
+                </div>
+    
+                <div class="input-field">
+                    <label id="comentarios" for="comentarios">Comentarios</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+                </div>
+    
+                <button class="boton" type="submit">Enviar</button>
+            </form>
+        </div>
+        
+            </div>
+       
+        </article>
+        <article class="card1">
+            <section class="mapcard" >
+                <div ><img class="logoMag" src="/logos/logoMagnanini.svg" alt=""></div>
+                <div class="info">
+                    <div class="icon">
+                        <img src="/logos/pin (1).png" alt="Icono">
+                        <p>Avenida Alvear 1807<br>
+                        Ciudad Autonoma de Buenos Aires<br>
+                        Argentina</p>
+                    </div>
+                    <div class="icon2">
+                        <img src="logos/phone-call.png" alt="Otro Logo">
+                        <p>+54 11 4 802 5200</p>
+                    </div>
+                    
+                </div>
+                <div id="map">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6342959225094!2d-58.388227099999995!3d-34.5881189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa498656473%3A0x420f55dcc9c263fa!2sAv.%20Alvear%201807%2C%20C1129%20AAA%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1698099230471!5m2!1ses-419!2sar" width="745" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+            </section>
+           
+        </article>
+        
+        
+    </section>
+
+    
+    <footer>
+        <div class="footer-left">
+            <img  class ="logofoot" src="logos/logo.svg" alt="Logo Izquierdo">
+            <p class="footertext">Copyright © 2023 MAGNANINI Y ASOC.<br>TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
+        <div class="footer-right">
+            <p class="footertext">AV. ALVEAR 1807. BUENOS AIRES. ARGENTINA</p>
+        </div>
+          <!-- Loading -->
+  <div class="loading loading--show">
+    <div class="justify-content-center jimu-primary-loading"></div>
+  </div>  
+  <!-- Lugar donde se cargarán las imágenes de caché -->
+  <div id="preload-images"></div>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
